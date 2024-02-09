@@ -11,8 +11,8 @@ export default function Personal() {
   const handleChangeEmail = (e) => {
     setEmail(e.target.value);
   };
-  const handleChangePhone = (e) => {
-    setPhone(e.target.value);
+  const handleChangePhone = (phoneNumber) => {
+    setPhone(phoneNumber);
   };
   return (
     <div className=''>
